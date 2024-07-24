@@ -1,3 +1,3 @@
 # add-nbo
 
-BoB add-nbo 과제
+BoB 13기 add-nbo 과제입니다.
