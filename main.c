@@ -16,7 +16,7 @@ uint32_t open_read_file(const char *filename){
 	size_t size;
 	size = fread(&buffer, sizeof(buffer), 1, file);
 
-	if(size<1){
+	if(size != 1){
 		printf("Error : Failed read 4bytes...");
 		exit(1);
 	}
